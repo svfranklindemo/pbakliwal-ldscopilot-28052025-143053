@@ -1,7 +1,19 @@
 {
-  "mappings": [
-    "/content/pbakliwal/eds-crosswalk-source/:/",
-    "/content/pbakliwal/eds-crosswalk-source/metadata.json:/metadata.json",
-    "/content/pbakliwal/eds-crosswalk-source/redirects.json:/redirects.json"
-  ]
+    "mappings": [
+      "/content/pbakliwal/test-1/:/",
+      "/content/pbakliwal/test-1/configuration:/.helix/config.json",
+      "/content/pbakliwal/test-1/metadata:/metadata.json",
+      "/content/pbakliwal/test-1/configs:/configs.json",
+      "/content/pbakliwal/test-1/configs-stage:/configs-stage.json",
+      "/content/pbakliwal/test-1/configs-dev:/configs-dev.json",
+      "/content/pbakliwal/test-1/redirects:/redirects.json",
+      "/content/pbakliwal/test-1/placeholders:/placeholders.json",
+      "/content/pbakliwal/test-1/products/recommended-products:/products/recommended-products.json",
+      "/content/pbakliwal/test-1/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/pbakliwal/test-1/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/pbakliwal/test-1",
+      "/content/dam/citisignal/images/products/"
+    ]
 }
